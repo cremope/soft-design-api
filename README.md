@@ -59,3 +59,9 @@ O relatório de execução dos testes é gerado na pasta `target/surefire-report
 ## Autor
 
 - Ricardo Cremonez
+
+## Observações
+Foram encontrados bugs nos testes. Como esse repositório é somente para estudo, vou listar os problemas encontrados aqui:
+- Classe AuthControllerTest.testLogin -> Espera retornar status code 200, porém, retorna 201.
+- Classe ProductControllerTest.testCreateProduct -> Espera que o id do response retorne 101, porém, retorna 195.
+- Classe UserControllerTest.testGetUserById -> Espera o image do response retorne '...', porém, retorna 'https://dummyjson.com/icon/emilys/128'.
