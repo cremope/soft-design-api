@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Projeto de automação de testes de API
+Projeto de automação de testes de API - Design pattern MVC (model view controller)
 
 ## Tecnologias
 
