@@ -76,7 +76,6 @@ public class UserControllerTest {
         response.then().statusCode(200);
         UserResponse userResponse = response.as(UserResponse.class);
 
-        // Valida os dados do usuário com base na resposta esperada
         assertEquals(userId, userResponse.getId(),
                 MessageFormat.format("ID do usuário esperado: {0}, encontrado: {1}. Response: {2}",
                     userId,

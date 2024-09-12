@@ -27,7 +27,7 @@ public class AuthControllerTest {
 
         Response response = given()
                 .contentType("application/json")
-                .body(loginRequest.toString()) // Converte payload para string
+                .body(loginRequest.toString())
                 .when()
                 .post(ConfigReader.getEndpointAuthLogin());
 
